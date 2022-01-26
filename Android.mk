@@ -27,6 +27,8 @@ LOCAL_SRC_FILES := \
 LOCAL_SHARED_LIBRARIES := \
     libcutils \
     liblog
+    
+LOCAL_HEADER_LIBRARIES := jni_headers
 
 LOCAL_MODULE := libfmjni
 LOCAL_MODULE_TAGS := optional
